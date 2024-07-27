@@ -1,0 +1,228 @@
+[
+  {
+    "name": "UltraComfort Chair",
+    "price": "299.99",
+    "description": "A luxurious ergonomic chair designed for all-day comfort.",
+    "rating": "4.8",
+    "images": [
+      {
+        "image": "https://example.com/images/ultracomfort-chair.jpg"
+      }
+    ],
+    "stock": "25",
+    "category": "Furniture",
+    "seller": "ComfortWorld",
+    "numOfReviews": "154",
+    "createdAt": "2024-06-15T14:20:00Z"
+  },
+  {
+    "name": "TechPro Wireless Earbuds",
+    "price": "129.99",
+    "description": "High-quality wireless earbuds with noise cancellation and long battery life.",
+    "rating": "4.5",
+    "images": [
+      {
+        "image": "https://example.com/images/techpro-earbuds.jpg"
+      },
+      {
+        "image": "https://example.com/images/ultracomfort-chair.jpg"
+      }
+    ],
+    "stock": "40",
+    "category": "Electronics",
+    "seller": "SoundTech",
+    "numOfReviews": "89",
+    "createdAt": "2024-07-01T09:00:00Z"
+  },
+  {
+    "name": "EcoSmart Water Bottle",
+    "price": "19.99",
+    "description": "Reusable water bottle with built-in UV sterilizer.",
+    "rating": "4.6",
+    "images": [
+      {
+        "image": "https://example.com/images/ecosmart-bottle.jpg"
+      }
+    ],
+    "stock": "150",
+    "category": "Home & Kitchen",
+    "seller": "EcoLiving",
+    "numOfReviews": "312",
+    "createdAt": "2024-07-10T11:45:00Z"
+  },
+  {
+    "name": "AdventurePro Tent",
+    "price": "349.99",
+    "description": "Durable and spacious tent perfect for camping in any weather.",
+    "rating": "4.7",
+    "images": [
+      {
+        "image": "https://example.com/images/adventurepro-tent.jpg"
+      },
+      {
+        "image": "https://example.com/images/ultracomfort-chair.jpg"
+      }
+    ],
+    "stock": "18",
+    "category": "Outdoor",
+    "seller": "CampGear",
+    "numOfReviews": "76",
+    "createdAt": "2024-05-22T08:30:00Z"
+  },
+  {
+    "name": "SmartHome Security Camera",
+    "price": "249.99",
+    "description": "High-definition security camera with motion detection and night vision.",
+    "rating": "4.4",
+    "images": [
+      {
+        "image": "https://example.com/images/smarthome-camera.jpg"
+      }
+    ],
+    "stock": "32",
+    "category": "Electronics",
+    "seller": "SecureHome",
+    "numOfReviews": "120",
+    "createdAt": "2024-07-05T13:10:00Z"
+  },
+  {
+    "name": "Gourmet Coffee Maker",
+    "price": "89.99",
+    "description": "Sleek coffee maker with multiple brewing options and programmable settings.",
+    "rating": "4.9",
+    "images": [
+      {
+        "image": "https://example.com/images/gourmet-coffee-maker.jpg"
+      },
+      {
+        "image": "https://example.com/images/ultracomfort-chair.jpg"
+      }
+    ],
+    "stock": "60",
+    "category": "Home & Kitchen",
+    "seller": "BrewMasters",
+    "numOfReviews": "198",
+    "createdAt": "2024-06-25T07:55:00Z"
+  },
+  {
+    "name": "Fitness Tracker Pro",
+    "price": "159.99",
+    "description": "Advanced fitness tracker with heart rate monitor, GPS, and sleep analysis.",
+    "rating": "4.6",
+    "images": [
+      {
+        "image": "https://example.com/images/fitness-tracker-pro.jpg"
+      }
+    ],
+    "stock": "45",
+    "category": "Health & Fitness",
+    "seller": "ActiveLife",
+    "numOfReviews": "105",
+    "createdAt": "2024-07-12T15:25:00Z"
+  },
+  {
+    "name": "Elegant Wall Art",
+    "price": "79.99",
+    "description": "Beautifully designed wall art to add a touch of sophistication to any room.",
+    "rating": "4.7",
+    "images": [
+      {
+        "image": "https://example.com/images/elegant-wall-art.jpg"
+      },
+      {
+        "image": "https://example.com/images/ultracomfort-chair.jpg"
+      }
+    ],
+    "stock": "20",
+    "category": "Home Decor",
+    "seller": "ArtisticVision",
+    "numOfReviews": "62",
+    "createdAt": "2024-07-02T10:15:00Z"
+  },
+  {
+    "name": "Classic Leather Wallet",
+    "price": "59.99",
+    "description": "Stylish leather wallet with multiple compartments for cards and cash.",
+    "rating": "4.8",
+    "images": [
+      {
+        "image": "https://example.com/images/classic-leather-wallet.jpg"
+      },
+      {
+        "image": "https://example.com/images/ultracomfort-chair.jpg"
+      }
+    ],
+    "stock": "75",
+    "category": "Accessories",
+    "seller": "FashionLux",
+    "numOfReviews": "134",
+    "createdAt": "2024-06-30T16:40:00Z"
+  },
+  {
+    "name": "Portable Blender",
+    "price": "49.99",
+    "description": "Compact and powerful blender perfect for smoothies on the go.",
+    "rating": "4.5",
+    "images": [
+      {
+        "image": "https://example.com/images/portable-blender.jpg"
+      }
+    ],
+    "stock": "85",
+    "category": "Home & Kitchen",
+    "seller": "BlendMaster",
+    "numOfReviews": "221",
+    "createdAt": "2024-07-08T12:00:00Z"
+  },
+  {
+    "name": "Premium Yoga Mat",
+    "price": "39.99",
+    "description": "High-quality yoga mat with extra cushioning and non-slip surface.",
+    "rating": "4.7",
+    "images": [
+      {
+        "image": "https://example.com/images/premium-yoga-mat.jpg"
+      }
+    ],
+    "stock": "120",
+    "category": "Health & Fitness",
+    "seller": "ZenYoga",
+    "numOfReviews": "198",
+    "createdAt": "2024-07-20T14:50:00Z"
+  },
+  {
+    "name": "Chef's Knife Set",
+    "price": "99.99",
+    "description": "Professional-grade knife set for all your culinary needs.",
+    "rating": "4.6",
+    "images": [
+      {
+        "image": "https://example.com/images/chefs-knife-set.jpg"
+      },
+      {
+        "image": "https://example.com/images/ultracomfort-chair.jpg"
+      }
+    ],
+    "stock": "33",
+    "category": "Home & Kitchen",
+    "seller": "KitchenEssentials",
+    "numOfReviews": "88",
+    "createdAt": "2024-07-18T09:30:00Z"
+  },
+  {
+    "name": "Designer Sunglasses",
+    "price": "149.99",
+    "description": "Trendy sunglasses offering 100% UV protection with a stylish design.",
+    "rating": "4.8",
+    "images": [
+      {
+        "image": "https://example.com/images/designer-sunglasses.jpg"
+      }
+    ],
+    "stock": "54",
+    "category": "Accessories",
+    "seller": "SunStyle",
+    "numOfReviews": "211",
+    "createdAt": "2024-06-28T17:20:00Z"
+  }
+]
