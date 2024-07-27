@@ -1,10 +1,11 @@
 const orderModel = require("../models/orderModels");
 
+const productModel = require("../models/productModels");
+
 // POST - CREATE Order API -> /api/mib/order
 exports.createOrder = async (req, res, next) => {
   try {
     console.log(req.body, "DATA");
-    
 
     const cart = req.body;
 
@@ -30,12 +31,18 @@ exports.createOrder = async (req, res, next) => {
     ).toFixed(2);
 
     console.log(amount, "amount");
-    
 
     const status = "Pending";
 
     // Create order
     const order = await orderModel.create({ cart, amount, status });
+
+    //Updating the Product Stock
+    cart.forEach(async (item) => {
+      const product = await productModel.findById(item.product._id);
+      product.stock = product.stock - item.qty;
+      await product.save();
+    });
 
     res.status(201).json({
       success: true,
