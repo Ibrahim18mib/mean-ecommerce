@@ -2,7 +2,17 @@ const productModel = require("../models/productModels");
 
 //GET Products API -> api/mib/products
 exports.getProducts = async (req, res, next) => {
-  const products = await productModel.find({});
+  //search product using query params
+  const query = req.query.keyword
+    ? {
+        name: {
+          $regex: req.query.keyword,
+          $options: "i",
+        },
+      }
+    : {};
+
+  const products = await productModel.find(query);
 
   res.json({
     success: true,
