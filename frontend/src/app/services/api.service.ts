@@ -15,8 +15,8 @@ export class ApiService {
   currentProducts = this.productsSource.asObservable();
   productsTmp = [];
 
-   getProducts() {
-     this.http
+  getProducts() {
+    this.http
       .get(environment.apiUrl + '/api/mib/products')
       .subscribe((data: any) => {
         this.productsSource.next(data);
@@ -26,7 +26,7 @@ export class ApiService {
 
   searchProducts(searchText: string) {
     this.http
-      .get(environment.apiUrl + '/api/v1/products', {
+      .get(environment.apiUrl + '/api/mib/products', {
         params: { keyword: searchText },
       })
       .subscribe((data: any) => {
@@ -41,10 +41,10 @@ export class ApiService {
   }
 
   getSingleProduct(id: string) {
-    return this.http.get(environment.apiUrl + '/api/v1/product/' + id);
+    return this.http.get(environment.apiUrl + '/api/mib/product/' + id);
   }
 
   orderCreate(order: any) {
-    return this.http.post(environment.apiUrl + '/api/v1/order', order);
+    return this.http.post(environment.apiUrl + '/api/mib/order', order);
   }
 }
